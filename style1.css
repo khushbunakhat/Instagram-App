@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 150px;
+    border-bottom: 1px solid gray;
+    position: fixed;
+    padding:0 16px;
+    width:100%;
+    background: #fff;
+}
+.logo{
+    height:30px;
+    margin-right: 15px;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid #f2f2f2;
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    bottom: 0;
+    position: fixed;
+}
+ .footer-action{
+    height:40px;
+ }
+.status-container{
+    padding-top:50px;
+    display: flex;
+    border-bottom: 1px solid;
+    height: 130px;
+    overflow-x: auto;
+}
+.status-container::-webkit-scrollbar{
+   display:none;
+}
+.status{
+    padding: 16px 0 16px 16px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    align-items: center;
+    height: 130px;
+    justify-content: center;
+
+}
+.profile-pic{
+    top: 50px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid crimson;
+    padding: 3px;
+
+}
+.post-image{
+    width:100;
+}
+.post-header{
+    margin:10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight:bold;
+}
+.sender-info{
+    display:flex;
+    align-items: center;
+}
+.more-option{
+    width:50px;
+}
+.sender-name{
+    margin-left: 20px;
+}
+.post-image{
+    width:100%;
+    height:100%;
+}
+.post-action{
+    height: 30px;
+    padding:5px;
+
+}
+.post{
+    margin-bottom: 80px;
+}
+.likes-section{
+    padding:0 12px;
+    margin-bottom: 40px;
+}
+.likes-count{
+    font-weight:bold;
+   
+}
