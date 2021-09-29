@@ -10,4 +10,4 @@ HTML
 CSS
 
 # 3.Live Demo
-https://instagram-website.netlify.app/
+https://instagram-app-by-khushbu.netlify.app/
